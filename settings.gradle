@@ -1,1 +1,1 @@
-include ':app', ':u3d_ar'
+include ':app', ':libu3d'
