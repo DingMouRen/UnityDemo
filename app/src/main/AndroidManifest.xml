@@ -26,9 +26,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity android:name=".ShowU3DActivity"
             android:process=":showu3d"
             />
+
     </application>
 
 </manifest>
