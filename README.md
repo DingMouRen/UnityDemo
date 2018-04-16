@@ -62,6 +62,7 @@ jo.Call("ShowRedPacket");
 ```
 通过上面的方式，Unity工程就可以调用到我们在Android项目中定义好的方法。
 Unity3D调用Android接口的api
+
 |方法名|方法类型|说明
 |---|---|---|
 |Call|实例|调用实例方法
