@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">U3d_180316</string>
-    <style name="UnityThemeSelector" parent="android:Theme.Light.NoTitleBar.Fullscreen">
-</style>
+    <style name="AppTheme" parent="android:Theme.Light.NoTitleBar.Fullscreen">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="UnityThemeSelector" parent="android:Theme.Light.NoTitleBar.Fullscreen"/>
     <style name="UnityThemeSelector.Translucent" parent="@style/UnityThemeSelector">
-    <item name="android:windowIsTranslucent">true</item>
-    <item name="android:windowBackground">@android:color/transparent</item>
-</style>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
 </resources>

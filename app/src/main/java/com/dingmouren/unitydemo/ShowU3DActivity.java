@@ -1,30 +1,75 @@
 package com.dingmouren.unitydemo;
 
+import android.content.DialogInterface;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.annotation.Nullable;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.widget.Toast;
+
+import cn.com.yomo.unity.UnityPlayerActivity;
+import cn.com.yomo.unity.UnitySplashSDK;
 
 
 /**
  * Created by Administrator on 2018/4/12.
  */
 
-public class ShowU3DActivity extends AppCompatActivity{
-    private String str = "{\"scene\":\"1\",\"getuser\":{\"name\":\"钉子\",\"id\":\"754\",\"password\":\"4565206\",\"url\":\"https:\\/\\/yomo-test.oss-cn-hangzhou.aliyuncs.com\\/image\\/5de4727d-7e87-415b-b062-c7a0dcb5e906\",\"info\":\"\"},\"giveuser\":{\"number\":\"1.215\",\"packetid\":3748,\"info\":\"\",\"imageurl\":\"https:\\/\\/yomo-test.oss-cn-hangzhou.aliyuncs.com\\/image\\/65987595-cbc5-45ce-825d-74b89d3adb4b\",\"name\":\"钉子\",\"id\":\"754\",\"url\":\"https:\\/\\/yomo-test.oss-cn-hangzhou.aliyuncs.com\\/image\\/5de4727d-7e87-415b-b062-c7a0dcb5e906\"},\"other\":{\"latitude\":30.180322,\"longitude\":120.151592,\"address\":\"高新商务酒店(南环路)\",\"walknumber\":\"\"}}";
+public class ShowU3DActivity extends UnityPlayerActivity{
+    private static final String TAG = "ShowU3DActivity";
+    private String str = "{\"scene\":\"1\",\"getuser\":{\"name\":\"\",\"id\":\"\",\"password\":\"\",\"url\":\"\",\"info\":\"\"},\"giveuser\":{\"number\":\"\",\"packetid\":3748,\"info\":\"\",\"imageurl\":\"\",\"name\":\"\",\"id\":\"\",\"url\":\"\"},\"other\":{\"latitude\":300.180322,\"longitude\":120.151592,\"address\":\"\",\"walknumber\":\"\"}}";
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-//        UnitySplashSDK.getInstance().onCreate(savedInstanceState, mUnityPlayer, 1);
-//        mUnityPlayer.UnitySendMessage("Manager", "Manager", str);
+        UnitySplashSDK.getInstance().onCreate(savedInstanceState, mUnityPlayer, 1);
+        mUnityPlayer.UnitySendMessage("Manager", "Manager", str);
     }
 
+    /**
+     * 展示红包，与Unity工程师协定的方法名。（Unity调用android的方法）
+     */
     public void ShowRedPacket() {
-       runOnUiThread(new Runnable() {
-           @Override
-           public void run() {
-               Toast.makeText(ShowU3DActivity.this,"哈哈",Toast.LENGTH_SHORT).show();
-           }
-       });
+        Log.e(TAG,"ShowRedPacket所在线程："+Thread.currentThread().getName());//这里的线程是Unity main线程，需要转换到android的主线程中操作自己的业务逻辑
+        runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                showMyDialog();
+            }
+        });
     }
+
+
+    /**
+     * 隐藏过渡界面，与Unity工程师协定的方法名。（Unity调用android的方法）
+     */
+    public void hideSplash() {
+        UnitySplashSDK.getInstance().onHideSplash();
+    }
+
+    //---------------------------  自己的业务逻辑  -----------------------------------
+
+    /**
+     * 展示对话框
+     */
+    private void showMyDialog() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("Unity调用android的方法展示出来的对话框");
+        builder.setNeutralButton("关闭u3d界面", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                closeUnity3D();
+            }
+        });
+        builder.create().show();
+    }
+
+    /**
+     * 关闭Unity3D
+     */
+    private void closeUnity3D() {
+        finish();
+    }
+
 }

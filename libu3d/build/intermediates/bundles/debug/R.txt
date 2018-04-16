@@ -1,0 +1,7 @@
+int drawable app_banner 0x7f090001
+int drawable app_icon 0x7f090002
+int mipmap ar_start 0x7f110001
+int string app_name 0x7f150001
+int style AppTheme 0x7f160001
+int style UnityThemeSelector 0x7f160002
+int style UnityThemeSelector_Translucent 0x7f160003

@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@android:color/white"
     tools:context="com.dingmouren.unitydemo.MainActivity">
 
 <Button
-    android:layout_width="match_parent"
+    android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:text="u3d"
+    android:text="打开u3d"
     android:onClick="openU3D"
+    android:gravity="center"
+    android:textSize="30sp"
+    android:textColor="@android:color/white"
+    android:background="@drawable/btn_circle_bg"
+    android:layout_centerInParent="true"
+    android:elevation="5dp"
     />
-    <com.tencent.smtt.sdk.WebView
-        android:id="@+id/webview"
-        android:layout_width="match_parent"
-        android:layout_height="400dp"/>
 
-</LinearLayout>
+</RelativeLayout>

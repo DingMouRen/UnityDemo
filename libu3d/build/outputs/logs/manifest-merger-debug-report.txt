@@ -26,89 +26,81 @@ INJECTED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:2:1-79:12
 	android:installLocation
 		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:5:5-45
 supports-screens
-ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:9:5-14:40
+ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:8:5-13:40
 	android:largeScreens
-		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:11:9-36
+		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:10:9-36
 	android:smallScreens
-		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:13:9-36
+		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:12:9-36
 	android:normalScreens
-		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:12:9-37
+		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:11:9-37
 	android:xlargeScreens
-		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:14:9-37
+		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:13:9-37
 	android:anyDensity
-		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:10:9-34
+		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:9:9-34
 application
-ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:15:5-44:19
-	android:label
-		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:19:9-41
-	android:icon
-		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:17:9-42
-	android:banner
-		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:16:9-46
+ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:14:5-42:19
 	android:theme
-		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:20:9-50
+		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:16:9-40
 	android:isGame
-		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:18:9-30
+		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:15:9-30
 activity#cn.com.yomo.unity.UnityPlayerActivity
-ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:21:9-30:20
+ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:18:9-26:20
 	android:screenOrientation
-		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:26:13-49
-	android:label
-		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:24:13-45
+		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:22:13-49
 	android:launchMode
-		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:25:13-44
+		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:21:13-44
 	android:configChanges
-		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:23:13-194
+		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:20:13-194
 	android:name
-		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:22:13-65
+		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:19:13-65
 meta-data#unityplayer.UnityActivity
-ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:27:13-29:40
+ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:23:13-25:40
 	android:value
-		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:29:17-37
+		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:25:17-37
 	android:name
-		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:28:17-57
+		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:24:17-57
 meta-data#unity.build-id
-ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:32:9-34:68
+ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:30:9-32:68
 	android:value
-		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:34:13-65
+		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:32:13-65
 	android:name
-		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:33:13-42
+		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:31:13-42
 meta-data#unity.splash-mode
-ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:35:9-37:33
+ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:33:9-35:33
 	android:value
-		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:37:13-30
+		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:35:13-30
 	android:name
-		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:36:13-45
+		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:34:13-45
 meta-data#unity.splash-enable
-ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:38:9-40:36
+ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:36:9-38:36
 	android:value
-		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:40:13-33
+		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:38:13-33
 	android:name
-		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:39:13-47
+		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:37:13-47
 meta-data#android.max_aspect
-ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:41:9-43:35
+ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:39:9-41:35
 	android:value
-		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:43:13-32
+		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:41:13-32
 	android:name
-		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:42:13-46
-uses-sdk
-ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:45:5-47:41
-INJECTED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:45:5-47:41
-INJECTED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:45:5-47:41
-	android:targetSdkVersion
-		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:47:9-38
-		INJECTED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml
-		INJECTED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml
-	android:minSdkVersion
-		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:46:9-35
+		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:40:13-46
 uses-feature#0x00020000
-ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:48:5-54
+ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:44:5-54
 	android:glEsVersion
-		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:48:19-51
-uses-permission#android.permission.INTERNET
-ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:50:5-67
+		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:44:19-51
+uses-feature#android.hardware.vulkan
+ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:45:5-47:36
+	android:required
+		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:47:9-33
 	android:name
-		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:50:22-64
+		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:46:9-47
+uses-permission#android.permission.INTERNET
+ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:49:5-67
+	android:name
+		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:49:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:50:5-79
+	android:name
+		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:50:22-76
 uses-permission#android.permission.CAMERA
 ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:51:5-65
 	android:name
@@ -132,15 +124,11 @@ ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:59:5-61:36
 	android:name
 		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:60:9-53
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:63:5-65:38
-	android:maxSdkVersion
-		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:65:9-35
+ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:63:5-65:11
 	android:name
 		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:64:9-65
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:66:5-68:38
-	android:maxSdkVersion
-		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:68:9-35
+ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:66:5-68:11
 	android:name
 		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:67:9-64
 uses-feature#android.hardware.touchscreen
@@ -161,3 +149,17 @@ ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:76:5-78:36
 		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:78:9-33
 	android:name
 		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml:77:9-72
+uses-sdk
+INJECTED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml
+INJECTED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml
+INJECTED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml
+INJECTED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml
+		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml
+		INJECTED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml
+		ADDED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml
+		INJECTED from E:\android\UnityDemo\libu3d\src\main\AndroidManifest.xml
