@@ -1,10 +1,10 @@
-### Unity3D与Android间的相互调用
+## Unity3D与Android间的相互调用
 
 将Unity3D集成到Android项目中有好几种方式，这里说的是将Unity3D以module的方式集成到android studio开发的项目中。
 Unity3D与Android间的交互基本套路就是在android中调起Unity3D,Unity3D展示出效果后，Unity3D再调用android中协定好的方法，来实现交互。这里就按照这个套路讲一下它们之间的交互以及其中出现的坑。
 
 ![](https://github.com/DingMouRen/UnityDemo/raw/master/screenshot/u3d展示.gif)
-#### Android调起Unity3D（这是Android工程师的工作）
+### Android调起Unity3D（这是Android工程师的工作）
 
 ShowU3DActivity
 ```
@@ -24,7 +24,7 @@ UnityPlayer是一个FrameLayout,3D的展示主要是这个类，一些FrameLayou
 * UnitySplashSDK.getInstance().onCreate(savedInstanceState, mUnityPlayer, 1);
 加载3D动画时间较长，为了更好的用户体验，自己实现了UnitySplashSDK这个类，主要是用来展示一个过渡界面和加载完成时隐藏过渡界面。
 
-#### 在Unity3D中调用Android（这是Unity工程师的工作）
+### 在Unity3D中调用Android（这是Unity工程师的工作）
 
 * Unity工程师想要调用Android项目中的方法，首先要有这个方法，所以Android工程师还要做件事情：与Unity工程师一起协定好方法的名称。
 
@@ -100,7 +100,7 @@ AndroidJavaClass jc = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
 AndroidJavaObject jo = jc.GetStatic<AndroidJavaObject>("currentActivity");
 string name = jo.Call("getName"); 
 ```
-#### 注意
+### 注意
 
 * UnityPlayer.quit()调用的时候会杀死当前进程，所以我们需要为界面创建新的进程
 ```
@@ -124,4 +124,3 @@ string name = jo.Call("getName");
     }
 ```
 
-### **具体的移步[Github](https://github.com/DingMouRen/UnityDemo)**
